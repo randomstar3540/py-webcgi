@@ -8,10 +8,12 @@ Failure to comply with the Student Plagiarism: Coursework Policy and Procedure c
 This is a web server that can handle multiple connections and execute applications that are compliant with a subset of the Common Gateway Interface specification. The Common Gateway Interface is used by web-servers to allow compatible programs to be executed on the server, to process HTTP requests and compute a HTTP response. The web-server uses standard input and output as well as environment variables for communication between the CGI program and the itself. HTTP requests that are received by the web-server can be passed to a CGI program via shell environment variables and standard input.
 
 ## For Marker
-My testcases are in the mytestcases/ floder
-You can run autotest.sh for testing all the testcases file
+Testcases are under the `mytestcases` floder.
+
+You can run `autotest.sh` to execute all testcases.
 
 ### Extension Part:
+
 The program can handle POST request and accepting form data.
 If the post request is in cgi script, it will pass the post request content body to the cgi script by Environment Variables and excute the cgi script. If it is not request in a cgi script, it will return a html file shows the form data that the client post.
 
