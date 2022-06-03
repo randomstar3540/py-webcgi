@@ -1,0 +1,10 @@
+<html>
+<head>
+	<title>DATA RECEIVED</title>
+</head>
+<body bgcolor="white">
+<center>
+	<h1>GET DATA: param1=1&param2=2</h1>
+</center>
+</body>
+</html>
